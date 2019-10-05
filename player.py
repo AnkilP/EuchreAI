@@ -4,7 +4,7 @@ class player:
         # stuff
         self.cards = cards
 
-    def __call__(self, cards):
+    def restart(self, cards):
         self.cards = cards
 
     def shuffle(self):
@@ -14,4 +14,3 @@ class player:
     def submits_card(self, suit):
         pass
 
-    
