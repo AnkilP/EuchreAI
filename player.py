@@ -1,4 +1,4 @@
-
+from card import Card as card
 
 class Utility:
 
@@ -41,14 +41,6 @@ class Player(Utility):
 
     def submits_card(self, suit):
         pass
-
-class Card:
-
-    def __init__(self, suit, rank):
-        self.suit = suit
-        self.rank = rank
-
-    def __repr__(self):
         
 
 from enum import Enum
