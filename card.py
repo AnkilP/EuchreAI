@@ -1,6 +1,4 @@
 class Card:
-    self.suit = "clubs"
-    self.number = "A"
 
     def __init__(self, suit, number):
         self.suit = suit
