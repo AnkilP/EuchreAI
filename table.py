@@ -2,9 +2,9 @@ import card
 
 class Table:
 
-    def __init__(self):
+    def __init__(self, trump):
         pass
 
-    def recieve_cards(self, plyaer_card):
+    def recieve_cards(self, player_card):
         #update suit
-        self.suit = card.suit
+        self.suit = player_card.suit
