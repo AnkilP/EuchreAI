@@ -9,7 +9,7 @@ class Utility:
 
         deck_options = {
             24 : {},
-            32 : {},
+            32 : {},  
             36 : {}
 
         }
@@ -41,11 +41,3 @@ class Player(Utility):
 
     def submits_card(self, suit):
         pass
-        
-
-from enum import Enum
-class Suit(Enum):
-    spade = 1
-    club = 2
-    heart = 3
-    diamond = 4
